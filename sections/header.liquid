@@ -1,8 +1,24 @@
+{{ 'header.css' |  asset_url |  stylesheet_tag }}
+
+
+<header class="nav-bar__container">
+  <div class="nav-bar__items">
+
+
+  </div>
+</header>
 
 {%  schema  %} 
 {
   "name": "Header",
-  "settings": []
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+      
+    }
+  ]
 }
 
 {% endschema %}
