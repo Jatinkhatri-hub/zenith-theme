@@ -28,5 +28,7 @@
 }
 
 .nav-drawer__container {
-  pos
+  position: fixed;
+  left: 0;
+  
 }
