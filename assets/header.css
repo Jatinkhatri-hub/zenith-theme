@@ -22,4 +22,7 @@
   height: 26px;
 }
 
-.site-nav__link
+.site-nav__link--icon {
+  display: flex;
+  align-items: center;
+}
