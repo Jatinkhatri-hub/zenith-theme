@@ -14,6 +14,7 @@
   background-color: black;
   height: 55px;
   width: 100%;
+  padding: 0 25px;
 }
 
 .header__brand-logo {
