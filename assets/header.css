@@ -9,7 +9,7 @@
 
 .nav-bar__items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   height: 55px;
