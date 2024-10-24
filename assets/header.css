@@ -1,12 +1,17 @@
-.nav-bar__container {
+/* .nav-bar__container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
   height: 55px;
   width: 100%;
-}
+} */
 
 .nav-bar__items {
-  height: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 55px;
+  width: 100%;
 }
