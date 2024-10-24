@@ -3,13 +3,13 @@
 
 <header class="nav-bar__container">
   <div class="nav-bar__items">
-    <div>
+    <a h>
       {%  render 'icon-hamburger' %}
-    </div>
+    </a>
     <a href="/">
       <img src="{{ section.settings.desktop_logo |  image_url: width: section.settings.desktop_logo.width }}" class="header__brand-logo">
     </a>
-    <a href="{{ routes.ca }}" >
+    <a href="{{ routes.cart_url }}" >
       {%  render 'icon-cart-bag' %} 
     </a>
 
