@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "stim free focus. hydration.",
+            "title_size": 50,
+            "subheading": "",
+            "link": "shopify:\/\/products\/morning-would",
+            "link_text": "Get would",
+            "link_2": "shopify:\/\/collections\/all",
+            "link_text_2": "Shop all",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Hero-with-Cherry.png",
+            "image_mobile": "shopify:\/\/shop_images\/Hero-with-Cherry.png",
+            "parallax_direction": "left",
+            "overlay_opacity": 58
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "ss_before_after_image_2_hchXFQ": {
+      "type": "ss-before-after-image-2",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/Before-MW.png",
+        "left_image_mobile": "shopify:\/\/shop_images\/Before-MW.png",
+        "right_image": "shopify:\/\/shop_images\/After-MW.png",
+        "right_image_mobile": "shopify:\/\/shop_images\/After-MW.png",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "layout_gap": 20,
+        "layout_gap_mobile": 20,
+        "layout": "text_image",
+        "layout_mobile": "text_image",
+        "layout_padding_vertical": 32,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 100,
+        "layout_padding_horizontal_mobile": 20,
+        "heading": "<h1>Tired of relying on caffeine to get through your day?<\/h1>",
+        "heading_custom": false,
+        "heading_font": "montserrat_n4",
+        "heading_size": 32,
+        "heading_size_mobile": 30,
+        "heading_height": 150,
+        "heading_align": "left",
+        "heading_align_mobile": "center",
+        "sub_heading": "Introducing Morning Would – where energy meets hydration. No need to load up on caffeine or sugar, this refreshing boost will  make you want to jump out of bed and conquer your day!",
+        "sub_heading_custom": false,
+        "sub_heading_font": "montserrat_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 18,
+        "sub_heading_height": 150,
+        "sub_heading_align": "left",
+        "sub_heading_align_mobile": "center",
+        "sub_heading_mt": 16,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_align": "left",
+        "button_align_mobile": "center",
+        "button_mt": 16,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 16,
+        "button_radius": 8,
+        "button_border_thickness": 1,
+        "btn_size": 56,
+        "btn_size_mobile": 56,
+        "btn_arrow_size": 100,
+        "btn_arrow_size_mobile": 100,
+        "btn_border_thickness": 2,
+        "heading_color": "#ffffff",
+        "sub_heading_color": "#b3b3b3",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#ffffff",
+        "button_border_hover_color": "#ffffff",
+        "layout_bg_color": "#000000",
+        "image_border_color": "#000000",
+        "btn_border_color": "#ffffff",
+        "btn_arrow_color": "#ffffff",
+        "line_color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 160,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_NqdRxt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cAkhdg": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_BnPcPm": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Morning Would is a daily supplement designed to keep you hydrated, focused, and ready to take on whatever your day brings from the moment you take it in the morning.<\/p><p>It combines ingredients that support muscle energy, hydration, and mental clarity, without any caffeine crashes. Whether you're working out or just need an extra boost for daily tasks, this blend helps you feel energized and sharp throughout the day. <\/p><p>If you're looking for a simple way to enhance both your physical and mental performance, Morning Would might be just what you need.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cAkhdg",
+        "text_BnPcPm"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_with_icons_4k9fGB": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_eBC3Ey": {
+          "type": "text_block",
+          "settings": {
+            "icon": "plant",
+            "title": "Clean Ingredients",
+            "text": "<p>All of our products are heavy metal tested and verified to be of the highest quality<\/p>"
+          }
+        },
+        "text_block_tQNEwz": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "Effective Dose",
+            "text": "<p>No BS proprietary blends. Just effectively dosed ingredients.<\/p>"
+          }
+        },
+        "text_block_NAFi8M": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Stim Free",
+            "text": "<p>Everyone is already stimmed up. We don't contribute to the problem<\/p>"
+          }
+        },
+        "text_block_bFDkLz": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Great Taste",
+            "text": "<p>Not just \"good for a supplement\". We have the best flavors on the market.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eBC3Ey",
+        "text_block_tQNEwz",
+        "text_block_NAFi8M",
+        "text_block_bFDkLz"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "17256759534a194e54": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_GDtw8A": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "morning-would"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_GDtw8A"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1713663868b42230c3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_Hda3rP": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_Hda3rP"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "blog_posts_CV3pdP": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Learn about morning would",
+        "blog": "blog",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "square",
+        "divider": true
+      }
+    },
+    "1713665144b6803f1c": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_WG3GpW": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-XWwXZr\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_WG3GpW"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "ss_before_after_image_2_hchXFQ",
+    "rich_text_NqdRxt",
+    "text_with_icons_4k9fGB",
+    "17256759534a194e54",
+    "1713663868b42230c3",
+    "blog_posts_CV3pdP",
+    "1713665144b6803f1c"
+  ]
+}
