@@ -9,7 +9,7 @@
     <a href="/">
       <img src="{{ section.settings.desktop_logo |  image_url: width: section.settings.desktop_logo.width }}" class="header__brand-logo">
     </a>
-    <a href="{{ routes.cart_url }}" >
+    <a href="{{ routes.cart_url }}" class="site-nav__link site-nav__link--icon js-drawer-open-cart" aria-controls="CartDrawer">
       {%  render 'icon-cart-bag' %} 
     </a>
 
