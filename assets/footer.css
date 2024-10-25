@@ -67,6 +67,10 @@
   gap: 20px;
 }
 
+.footer__menu-wrapper li {
+  list-style-type: none;
+}
+
 .footer__menu-wrapper a {
   font: 700 19px 'Rubik';
   color: white;
