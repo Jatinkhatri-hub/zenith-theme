@@ -222,7 +222,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: baseline;
-  font: 18px ;
+  font: 18px 'Futura PT Light';
 }
 
 .nav-drawer__parent-menu li {
