@@ -78,7 +78,10 @@
 }
 
 
-.footer__men
+.footer__menu-wrapper-child {
+  display: flex;
+  
+}
 
 
 .footer__copyright {
