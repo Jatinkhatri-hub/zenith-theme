@@ -51,7 +51,7 @@
 }
 
 .nav-drawer__close-btn {
-  transform: rotateY('180deg');
+  transform: rotate(180deg);
 }
 
 .nav-drawer__close-btn:hover {
