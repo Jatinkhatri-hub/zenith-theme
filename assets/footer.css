@@ -81,7 +81,9 @@
 .footer__menu-wrapper-child {
   display: flex;
   gap: 10px;
-  flex-direction: ;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
 
 
