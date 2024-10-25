@@ -78,11 +78,11 @@
   position: relative;
 }
 
-:hover {
+#parent-link:hover {
   color: white;
 }
 
-.footer::after {
+::after {
   content: '';
   position: absolute;
   width: 100%;
