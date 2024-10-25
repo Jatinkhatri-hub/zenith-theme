@@ -85,8 +85,10 @@
   align-items: baseline;
   justify-content: center;
   height: 0;
-  transition: height;
+  transition: height 0.3sec ease-in-out;
 }
+
+.footer
 
 
 
