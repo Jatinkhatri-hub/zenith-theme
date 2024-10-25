@@ -256,6 +256,10 @@
   list-style-type: none;
 }
 
+.nav-drawer__social-wrapper {
+  display: flex;
+}
+
 .nav-drawer__social-icon {
   display: flex;
   justify-content: center;
