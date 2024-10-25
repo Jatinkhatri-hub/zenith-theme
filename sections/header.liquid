@@ -111,9 +111,9 @@
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
       </div>
     {% endif %} {% endcomment %}
-    <div class="nav-drawer__copyright">
-      <p>{{ section.se }}</p>
-    </div>
+    {% comment %} <div class="nav-drawer__copyright">
+      <p>{{ section.settings.copyright }}</p>
+    </div> {% endcomment %}
   </div>
 </header>
 
