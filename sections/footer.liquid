@@ -1,7 +1,7 @@
 {{ 'footer.css' |  asset_url |  stylesheet_tag }}
 
 <footer class="section-footer">
-  <div class="section-footer__wrapper page-width">
+  <div class="section-footer__wrapper">
     {% for block in section.blocks %} 
       {% case block.type %} 
         {% when 'brand_info' %}

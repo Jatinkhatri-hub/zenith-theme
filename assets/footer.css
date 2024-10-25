@@ -89,6 +89,7 @@
   .section-footer__wrapper {
     flex-direction: row;
     justify-content: flex-start;
+    width: 100%;
   }
 
   .brand__info-wrapper {
@@ -102,6 +103,6 @@
   }
 
   .footer__social-icon {
-    flex-
+    justify-content: flex-start;
   }
 }
