@@ -3,14 +3,14 @@
 
 
 <header class="nav-bar__container">
-  <div class="nav-bar__items">
+  <div class="nav-bar__items page-width">
     <a href="#" class="site-nav__link--icon" id="openNav">
       {%  render 'icon-hamburger' %}
     </a>
 
     <div class="nav-bar__menu">
       {% for link in section.settings.desktop_menu.links %} 
-        <a href="{{ link.url }}">{{}}</a>
+        <a href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
 
     </div>
