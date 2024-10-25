@@ -184,7 +184,8 @@
 
 .nav-drawer__product-btn {
   font: 18px 'Master';
-  background-image: linear-gradient(#FFA600, FF8);
+  background-image: linear-gradient(#FFA600, #FF8400);
+  
 }
 
 
