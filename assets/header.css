@@ -323,6 +323,10 @@
     display: none;
   }
 
+  .icon-user {
+    display: block;
+  }
+
   .nav-bar__icons {
     display: flex;
     justify-self: flex-end;
