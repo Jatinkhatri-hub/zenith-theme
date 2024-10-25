@@ -298,6 +298,8 @@
   .nav-bar__items {
     height: 85px;
     position: relative;
+    display: gird;
+    grid-template-columns: repeat();
   }
 
   .header__brand-logo {
