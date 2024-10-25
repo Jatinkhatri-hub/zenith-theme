@@ -299,7 +299,9 @@
 .nav-drawer__social-icon svg.icon path {
   fill: #4C3425;
 }
-
+:not(#\20):not(#\20):not(#\20):not(#\20).r-wd7h38 {
+  display: none !important;
+}
 
 @media screen and (min-width: 786px) {
 
