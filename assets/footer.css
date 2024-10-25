@@ -85,6 +85,7 @@
   align-items: baseline;
   justify-content: center;
   height: 0;
+  transition: height;
 }
 
 
