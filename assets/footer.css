@@ -78,11 +78,11 @@
   position: relative;
 }
 
-.footer__menu-wrapper a:hover {
+:hover {
   color: white;
 }
 
-.nav-bar__item::after {
+.footer::after {
   content: '';
   position: absolute;
   width: 100%;
