@@ -228,6 +228,7 @@
   align-items: baseline;
   font: 18px 'Futura PT Light';
   color: #110700;
+  text-transform: capitalize;
 }
 
 .nav-drawer__parent-menu li {
