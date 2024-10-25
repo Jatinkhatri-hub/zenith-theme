@@ -212,6 +212,10 @@
   padding: 25px;
 }
 
+.nav-drawer__parent-menu {
+  margin: 0;
+}
+
 .parent_link {
   font: 18px 'Futura PT Light';
   text-transform: uppercase;
