@@ -294,7 +294,9 @@
 
 
 @media screen and (min-width: 786px) {
-  .nav-drawer
+  .nav-drawer__container {
+    display: none;
+  }
 }
 
 
