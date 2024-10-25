@@ -113,6 +113,9 @@
   align-items: center;
 }
 
-.nav__product
+.nav__product-card {
+  display: flex;
+  width: ;
+}
 
 
