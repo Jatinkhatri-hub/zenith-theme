@@ -27,7 +27,7 @@
       {% case block.type %}
         {% when 'shop_info' %}
           <div class="shop__info-wrapper">
-            <h2>{}</h2>
+            <h2>{{ block.settings.title }}</h2>
           </div> 
         {% when 'product_card' %}
           <div class="nav-drawer__product-card">
