@@ -92,6 +92,8 @@
   }
 
   .brand__info-wrapper {
+    align-items: baseline;
+    width: 300px;
     
   }
 }
