@@ -90,6 +90,7 @@
     flex-direction: row;
     justify-content: flex-start;
     padding: 45px 115px;
+    gap: 110px;
   }
 
   .brand__info-wrapper {
