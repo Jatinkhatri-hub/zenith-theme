@@ -278,8 +278,8 @@
   flex-direction: column;
   width: 325px;
   margin: 0 25px;
-  border-block-start: 1px solid black;
-    padding-top: 25px;
+  border-block-start: 1px solid #D4D4D4;
+  padding-top: 25px;
 }
 
 .nav-drawer__social-icon {
