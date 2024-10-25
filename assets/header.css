@@ -256,7 +256,10 @@
   list-style-type: none;
 }
 
-.nav-drawer__social
+.nav-drawer__social-icon {
+  display: flex;
+  j
+}
 
 
 
