@@ -52,6 +52,7 @@
         
         {% assign navdrawer_menu_closed = true %}
       {% endif %} {% endcomment %}
+      <div>
       {% case block.type %}
         {% when 'shop_info' %}
           <div class="shop__info-wrapper">
@@ -109,8 +110,8 @@
       {% endcase %}
     {% endfor %}
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
-      </div>
     {% endif %} {% endcomment %}
+    </div>
     <div class="nav-drawer__copyright">
       <p>{{ section.settings.copyright }}</p>
     </div>
