@@ -308,6 +308,10 @@
     display: none;
   }
 
+  .nav-bar__icons {
+    display: flex;
+  }
+
   .site-nav__link svg {
     width: 24px;
     height: 28px;
