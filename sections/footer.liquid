@@ -1,7 +1,7 @@
 {{ 'footer.css' |  asset_url |  stylesheet_tag }}
 
 <footer class="section-footer">
-  <div class="section-footer__wrapper">
+  <div class="section-footer__wrapper page-width">
     {% for block in section.blocks %} 
       {% case block.type %} 
         {% when 'brand_info' %}
@@ -25,7 +25,7 @@
         {%- render 'multi-selectors',
           locale_selector: locale_selector,
           currency_selector: currency_selector,
-          show_currency_flags: section.settings.show_currency_flags
+          show_currency_flags: true
           location: 'footer'
         -%}
   </div>
