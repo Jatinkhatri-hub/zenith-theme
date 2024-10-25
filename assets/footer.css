@@ -78,6 +78,28 @@
   position: relative;
 }
 
+.footer__menu-wrapper:hover {
+  color: white;
+}
+
+.nav-bar__item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-bar__item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 .footer__menu-wrapper-child {
   display: flex;
