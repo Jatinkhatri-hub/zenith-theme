@@ -85,6 +85,8 @@
 }
 
 
-@media screen and (min-width: 78) {
-  
+@media screen and (min-width: 786px) {
+  .section-footer__wrapper {
+    flex-direction: row;
+  }
 }
