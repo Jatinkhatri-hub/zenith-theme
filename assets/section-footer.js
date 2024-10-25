@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const icon = button.querySelector('svg');
 
       dropdownMenu.classList.toggle('visible');
+
+      if (button.classList.contains('active')) {
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        icon.style.transform = 'rotate(0deg)';
+      }
     })
   })
 })
