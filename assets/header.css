@@ -330,6 +330,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    justify-self: flex-start;
   }
 
   .nav-bar__item {
