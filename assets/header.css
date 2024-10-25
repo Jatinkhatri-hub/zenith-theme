@@ -199,7 +199,7 @@
   transition: background-image 0.3s ease-in-out;
   padding: 20px;
   width: 330px;
-  border: 2px solid ;
+  border: 2px solid #FFA600;
 }
 
 .nav-drawer__product-btn:hover {
