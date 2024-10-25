@@ -261,7 +261,7 @@
   margin-inline: 25px;
   align-items: center;
   justify-content: center;
-  
+  flex-direction: column;
 }
 
 .nav-drawer__social-icon {
