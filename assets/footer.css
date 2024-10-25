@@ -73,4 +73,9 @@
   text-align: center;
 }
 
-.footer__copy
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
