@@ -308,7 +308,9 @@
     display: none;
   }
 
-  .site-nav__link
+  .site-nav__link svg {
+    font-size: ;
+  }
 }
 
 
