@@ -112,4 +112,8 @@
     justify-content: flex-start;
     align-self: flex-start;
   }
+
+  .footer__menu-wrapper a {
+    text-align: start;
+  }
 }
