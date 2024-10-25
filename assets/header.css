@@ -40,4 +40,8 @@
   background: white;
 }
 
-.nav
+.nav-drawer__header {
+  display: flex;
+  justify-content: space-between;
+  
+}
