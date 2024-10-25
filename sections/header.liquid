@@ -24,7 +24,8 @@
       </span>
     </div>
     {% for block in section.blocks %} 
-      {% case block.type %} 
+      {% case block.type %}
+        {% when 'shop_info' %} 
         {% when 'product_card' %}
           <div class="nav-drawer__product-card">
             
