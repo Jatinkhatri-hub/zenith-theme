@@ -121,6 +121,8 @@
   gap: 12px;
   align-items: center;
   justify-content: flex-start;
+  background: #FBFBFB;
+  
 }
 
 .nav__product-img-wrapper {
