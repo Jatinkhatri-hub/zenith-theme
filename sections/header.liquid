@@ -71,7 +71,7 @@
               Shop Now
             </button>
           </a>
-        {% when 'menu' %}
+        {% comment %} {% when 'menu' %}
           <ul>
             {% for link in block.settings.nav_menu %} 
               <li>
@@ -83,7 +83,7 @@
                 </ul>
               </li>
             {% endfor %}
-          </ul>
+          </ul> {% endcomment %}
       {% endcase %}
     {% endfor %}
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
