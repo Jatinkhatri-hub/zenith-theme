@@ -8,9 +8,13 @@
 } */
 
 @font-face {
-  font-family: 'Futura PT Light';
+  font-family: 'Futura PT Medium';
   src: url('https://cdn.shopify.com/s/files/1/0852/8553/6031/files/FuturaCyrillicMedium.woff?v=1729828394');
 }
+
+@
+
+
 
 .nav-bar__items {
   display: flex;
