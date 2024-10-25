@@ -85,7 +85,7 @@
   align-items: baseline;
   gap: 10px;
   flex-direction: column;
-  padding: 0 25px;
+  padding-inline-start: 25px;
 }
 
 .shop__info-wrapper h2 {
