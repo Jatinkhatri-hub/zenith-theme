@@ -299,7 +299,7 @@
     height: 85px;
     position: relative;
     display: gird;
-    grid-template-columns: repeat();
+    grid-template-columns: repeat(3, minmax(0, ));
   }
 
   .header__brand-logo {
