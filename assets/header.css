@@ -169,7 +169,11 @@
   margin: 0;
 }
 
-.nav__product-review
+.nav__product-review__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  
+}
 
 
 
