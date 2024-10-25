@@ -356,6 +356,11 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  .nav-bar__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 
 }
