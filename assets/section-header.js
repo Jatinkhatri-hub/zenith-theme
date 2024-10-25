@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   openNavBtn.addEventListener('click', () => {
-    navContainer.classList.remove('close');
+    navContainer.classList.add('open');
   });
 
   closeNavBtn.addEventListener('click', () => {
-    navContainer.classList.add('close');
+    navContainer.classList.add('open');
   });
 })
