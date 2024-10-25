@@ -339,7 +339,7 @@ body.no-scroll {
     display: grid;
     /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
     padding-inline: 40px ;
-    grid-template-columns: 1fr 200px 1fr;
+    grid-template-columns: 1fr 200px 1fr 100px;
   }
 
   .nav-bar__header-logo {
