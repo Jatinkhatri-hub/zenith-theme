@@ -48,11 +48,18 @@
             "product_badge": "BEST SELLER",
             "review_text": "1,000+ reviews"
           }
+        },
+        "menu_gqeMYn": {
+          "type": "menu",
+          "settings": {
+            "nav_menu": "footer"
+          }
         }
       },
       "block_order": [
         "shop_info_wD7anC",
-        "product_card_tdNbgY"
+        "product_card_tdNbgY",
+        "menu_gqeMYn"
       ],
       "settings": {
         "desktop_logo": "shopify://shop_images/image_2.png"
