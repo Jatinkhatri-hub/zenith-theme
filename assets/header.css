@@ -297,6 +297,7 @@
 
   .nav-bar__items {
     height: 85px;
+    position: relative;
   }
 
   .header__brand-logo {
