@@ -91,16 +91,16 @@
   }
 
 
-.footer__menu-wrapper-child {
-  overflow: hidden;
-  height: 0;
-  transition: height 0.3s ease; /* Smooth transition */
-  padding-left: 1rem;
-}
-
-.footer__menu-wrapper-child.open {
-  height: auto; /* Set height to auto when opened */
-}
+  .footer__menu-wrapper-child {
+    max-height: 0; /* Initially hidden */
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* Transition for the dropdown */
+  }
+  
+  .footer__menu-wrapper-child.visible {
+    max-height: 200px; /* Set to a maximum height that can fit the child links */
+    /* Adjust 200px as needed depending on how many links you have */
+  }
 
 
 
