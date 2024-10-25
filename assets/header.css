@@ -264,7 +264,8 @@
 }
 
 .nav-drawer__social-icon svg.icon {
-  width: 3;
+  width: 36px;
+  height: 36px;
 }
 
 .nav-drawer__social-icon svg.icon path {
