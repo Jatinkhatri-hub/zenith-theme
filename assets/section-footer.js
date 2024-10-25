@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll(.)
+  document.querySelectorAll('.parent-link').
 })
