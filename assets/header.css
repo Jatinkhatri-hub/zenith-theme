@@ -300,7 +300,8 @@
   }
 
   .header__brand-logo {
-    height: 90p;
+    height: 50px;
+    width: 190px;
   }
 
   .nav-drawer__container {
