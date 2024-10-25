@@ -82,7 +82,7 @@
   color: white;
 }
 
-::after {
+#parent-link::after {
   content: '';
   position: absolute;
   width: 100%;
