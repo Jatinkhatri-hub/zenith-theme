@@ -271,6 +271,9 @@
   gap: 15px;
 }
 
+.nav-drawer__social-icon p {
+
+
 .nav-drawer__social-icon svg.icon {
   width: 36px;
   height: 36px;
