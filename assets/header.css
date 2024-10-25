@@ -222,7 +222,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: baseline;
-  
+  font: 18px ;
 }
 
 .nav-drawer__parent-menu li {
