@@ -299,9 +299,9 @@
     height: 85px;
   }
 
-  .header__brand-logo [
-    width: 190px;
-  ]
+  .header__brand-logo {
+    height: 90p;
+  }
 
   .nav-drawer__container {
     display: none;
