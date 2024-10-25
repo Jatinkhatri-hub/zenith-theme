@@ -207,7 +207,10 @@
   border: 2px solid #231811;
 }
 
-.
+.nav-drawer__menu-wrapper {
+  display: flex;
+  
+}
 
 
 
