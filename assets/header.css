@@ -173,8 +173,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: px;
+  gap: 5px;
 }
+
+
 
 
 
