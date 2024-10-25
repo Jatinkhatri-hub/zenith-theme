@@ -112,7 +112,7 @@
       </div>
     {% endif %} {% endcomment %}
     <div class="nav-drawer__copyright">
-      <p></p>
+      <p>{{ section.se }}</p>
     </div>
   </div>
 </header>
@@ -130,6 +130,11 @@
       "type": "link_list",
       "id": "desktop_menu",
       "label": "Menu"
+    },
+    {
+      "type": "text",
+      "id": "copyright",
+      "label": "Copyright"
     }
   ],
   "blocks": [
