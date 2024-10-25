@@ -74,7 +74,7 @@
         {% when 'menu' %}
       {% endcase %}
     {% endfor %}
-    {% if navdrawer_menu_started and navdrawer == false %}
+    {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
       </div>
     {% endif %}
   </div>
