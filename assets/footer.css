@@ -8,5 +8,6 @@
 .section-footer__wrapper {
   display: flex;
   justify-content: center;
-  al
+  align-items: center;
+  
 }
