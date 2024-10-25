@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const open
+  const openNavBtn = document.querySelector('.')
 })
