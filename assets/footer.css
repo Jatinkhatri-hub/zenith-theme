@@ -57,4 +57,10 @@
   fill: white;
 }
 
-.footer
+.footer__menu__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
