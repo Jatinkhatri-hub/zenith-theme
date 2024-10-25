@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   openNavBtn.addEventListener('click', () => {
     navContainer.classList.remove('close');
-  })
+  });
 
-  closeNavBtn.addEventListener('click')
+  closeNavBtn.addEventListener('click', () => {
+    nav
+  });
 })
