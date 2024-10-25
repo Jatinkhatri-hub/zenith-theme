@@ -34,9 +34,9 @@
           <div class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <a href="{{ link.url }}">{{ link.title }}</a>
-              <div class="footer-">
+              <div class="footer__menu-wrapper-child">
                 {% for child in link.links %} 
-                  
+                  <a></a>
                 {% endfor %}
               </div>
                 
