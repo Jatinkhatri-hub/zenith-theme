@@ -1,5 +1,6 @@
 .section-footer {
   display: flex;
   flex-direction: column;
-  ju
+  background-color: black;
+  color: white;
 }
