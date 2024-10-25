@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   openNavBtn.addEventListener('click', () => {
     navContainer.classList.add('open');
+    document.body.classList.add('no-scroll');
   });
 
   closeNavBtn.addEventListener('click', () => {
-    navContainer.classList.add('open');
+    navContainer.classList.remove('open');
   });
 })
