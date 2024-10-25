@@ -216,7 +216,7 @@
   margin: 0;
 }
 
-.parent_link {
+.parent_link a{
   font: 18px 'Futura PT Light';
   text-transform: uppercase;
   color: #909090;
@@ -227,7 +227,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: baseline;
-  font: 18px 'Futura PT ';
+  font: 18px 'Futura PT Medium';
   color: #110700;
   text-transform: capitalize;
   margin: 0;
