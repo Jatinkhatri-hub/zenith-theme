@@ -57,10 +57,11 @@
   z-index: 1000;
   width: 100vw;
   height: 100vh;
+  transition: left 0.5s ;
 }
 
 .open {
-  
+
 }
 
 .nav-drawer__header {
