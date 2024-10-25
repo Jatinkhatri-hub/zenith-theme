@@ -74,6 +74,9 @@
         {% when 'menu' %}
       {% endcase %}
     {% endfor %}
+    {% if navda and value_point_closed == false %}
+      </div>
+    {% endif %}
   </div>
 </header>
 
