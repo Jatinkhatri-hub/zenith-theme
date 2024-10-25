@@ -258,7 +258,9 @@
 
 .nav-drawer__social-wrapper {
   display: flex;
-  margin-li
+  margin-inline: 25px;
+  align-items: center;
+  flex
 }
 
 .nav-drawer__social-icon {
