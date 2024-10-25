@@ -75,24 +75,24 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-
-
-  });
-  document.querySelectorAll('.parent-link').forEach(parentLink => {
-    parentLink.addEventListener('click', function(event) {
-      event.preventDefault();
-
-      const childWrapper = parentLink.nextElementSibling;
-      
-      // Toggle animation classes
-      if (childWrapper.classList.contains('open')) {
-        childWrapper.style.height = '0'; // Collapses the dropdown
-        childWrapper.classList.remove('open');
-      } else {
-        childWrapper.style.height = `${childWrapper.scrollHeight}px`; // Expands the dropdown
-        childWrapper.classList.add('open');
-      }
+    
+    document.querySelectorAll('.parent-link').forEach(parentLink => {
+      parentLink.addEventListener('click', function(event) {
+        event.preventDefault();
+  
+        const childWrapper = parentLink.nextElementSibling;
+        
+        // Toggle animation classes
+        if (childWrapper.classList.contains('open')) {
+          childWrapper.style.height = '0'; // Collapses the dropdown
+          childWrapper.classList.remove('open');
+        } else {
+          childWrapper.style.height = `${childWrapper.scrollHeight}px`; // Expands the dropdown
+          childWrapper.classList.add('open');
+        }
+      });
     });
+
   });
 </script>
 
