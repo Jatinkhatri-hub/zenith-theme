@@ -73,9 +73,9 @@
           </a>
         {% when 'menu' %}
           <div class="nav-drawer__menu-wrapper">
-            <ul class="nav-drawer__">
+            <ul class="nav-drawer__parent-menu">
               {% for link in block.settings.nav_menu.links %} 
-                <li>
+                <li class="">
                   <a href="{{ link.url }}">{{ link.title }}</a>
                   <ul>
                     {% for child in link.links %} 
