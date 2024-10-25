@@ -94,6 +94,12 @@
   .brand__info-wrapper {
     align-items: baseline;
     width: 300px;
-    
+
   }
+
+  .brand__info-wrapper p {
+    text-align: start;
+  }
+
+  
 }
