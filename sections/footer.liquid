@@ -34,12 +34,12 @@
           <div class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <a href="{{ link.url }}">{{ link.title }}</a>
-              <div>
+              <div class="footer-">
                 {% for child in link.links %} 
-
+                  
+                {% endfor %}
               </div>
                 
-              {% endfor %}
             {% endfor %}
           </div>
       {% endcase %}
