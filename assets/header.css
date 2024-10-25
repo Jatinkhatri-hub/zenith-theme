@@ -91,5 +91,7 @@
 }
 
 .shop__info-wrapper div {
-  f
+  display: flex;
+  justify-content: space-between;
+  
 }
