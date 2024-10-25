@@ -215,6 +215,7 @@
 .nav-drawer__parent-menu {
   margin: 0;
   display: flex;
+  gap: 85px;
   
 }
 
