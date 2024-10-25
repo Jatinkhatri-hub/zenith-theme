@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   openNavBtn.addEventListener('click', () => {
-    navContainer.tog
+    navContainer.remove
   })
 })
