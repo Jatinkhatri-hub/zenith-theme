@@ -52,7 +52,7 @@
         "menu_gqeMYn": {
           "type": "menu",
           "settings": {
-            "nav_menu": "footer"
+            "nav_menu": "zenith-nav"
           }
         }
       },
