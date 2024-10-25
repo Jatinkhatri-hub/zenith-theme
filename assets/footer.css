@@ -98,7 +98,7 @@
   }
   
   .footer__menu-wrapper-child.visible {
-    max-height: 200px; /* Set to a maximum height that can fit the child links */
+    max-height: auto; /* Set to a maximum height that can fit the child links */
     /* Adjust 200px as needed depending on how many links you have */
   }
 
