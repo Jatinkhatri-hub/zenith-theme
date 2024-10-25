@@ -321,6 +321,12 @@
     height: 28px;
   }
 
+  .nav-bar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+  }
+
   .nav-bar__item {
     color: white;
     font: 400 20px 'Futura PT Medium';
