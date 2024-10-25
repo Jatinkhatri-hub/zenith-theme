@@ -40,11 +40,11 @@
   text-align: center;
 }
 
-.nav-drawer__social-icon svg.icon {
+.footer__social-icon svg.icon {
   width: 36px;
   height: 36px;
 }
 
-.nav-drawer__social-icon svg.icon path {
+.footer__social-icon svg.icon path {
   fill: #4C3425;
 }
