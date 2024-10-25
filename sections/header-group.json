@@ -54,14 +54,19 @@
           "settings": {
             "nav_menu": "zenith-nav"
           }
+        },
+        "text_tAqjY3": {
+          "type": "text",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "shop_info_wD7anC",
         "product_card_tdNbgY",
-        "menu_gqeMYn"
+        "menu_gqeMYn",
+        "text_tAqjY3"
       ],
-      "disabled": true,
       "settings": {
         "desktop_logo": "shopify://shop_images/image_2.png"
       }
