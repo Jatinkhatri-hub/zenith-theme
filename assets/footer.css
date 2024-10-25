@@ -22,5 +22,10 @@
 
 .footer__brand-logo {
   width: 140px;
-  height: ;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.footer__brand
