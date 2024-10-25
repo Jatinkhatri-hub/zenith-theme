@@ -88,7 +88,19 @@
   transition: height 0.3sec ease-in-out;
 }
 
-.footer
+.footer__menu-wrapper-child {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease; /* Smooth transition */
+  padding-left: 1rem;
+}
+
+.footer__menu-wrapper-child.open {
+  height: auto; /* Set height to auto when opened */
+}
+
+
+
 
 
 
