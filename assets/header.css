@@ -312,6 +312,8 @@
   font: 400 14px 'Rubik';
   color: white;
   /* text-align: center; */
+  display: flex;
+  align-items: center;
 }
 :not(#\20):not(#\20):not(#\20):not(#\20).r-wd7h38 {
   display: none !important;
