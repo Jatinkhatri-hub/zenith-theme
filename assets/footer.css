@@ -90,7 +90,8 @@
     flex-direction: row;
     justify-content: flex-start;
     padding: 45px;
-    max-width: ;
+    max-width: 1500px;
+    margin: auto;
   }
 
   .brand__info-wrapper {
