@@ -91,7 +91,12 @@
 
   }
 
-  #
+  #parent-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 
 
   .footer__menu-wrapper-child {
