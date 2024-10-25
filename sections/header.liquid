@@ -74,11 +74,11 @@
         {% when 'menu' %}
           <div>
             <ul>
-              {% for link in block.settings.nav_menu %} 
+              {% for link in block.settings.nav_menu.links %} 
                 <li>
                   <a href="{{ link.url }}">{{ link.title }}</a>
                   <ul>
-                    {% for child in link %} 
+                    {% for child in link.links %} 
                       <li><a href="{{ child.url }}"> {{ child.title }}</a> </li>
                     {% endfor %}
                   </ul>
