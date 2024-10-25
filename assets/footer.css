@@ -58,7 +58,7 @@
   fill: white;
 }
 
-.footer__menu__wrapper {
+.footer__menu-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,7 +66,7 @@
   gap: 20px;
 }
 
-.footer__menu__wrapper a {
+.footer__menu-wrapper a {
   font: 700 19px 'Rubik';
   color: white;
   text-align: center;
