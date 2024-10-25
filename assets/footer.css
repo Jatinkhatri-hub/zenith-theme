@@ -102,8 +102,8 @@
   .footer__menu-wrapper-child.visible {
     max-height: 200px; /* Set to a maximum height that can fit the child links */
     /* Adjust 200px as needed depending on how many links you have */
-    padding: 20px;
-    padd
+    padding: 10px;
+    padding-right: 0;
   }
 
 
