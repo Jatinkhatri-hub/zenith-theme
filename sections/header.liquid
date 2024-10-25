@@ -72,19 +72,20 @@
             </button>
           </a>
         {% when 'menu' %}
-          
-          <ul>
-            {% for link in block.settings.nav_menu %} 
-              <li>
-                <a href="{{ link.url }}">{{ link.title }}</a>
-                <ul>
-                  {% for child in link %} 
-                    <li><a href="{{ child.url }}"> {{ child.title }}</a> </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            {% endfor %}
-          </ul>
+          <div>
+            <ul>
+              {% for link in block.settings.nav_menu %} 
+                <li>
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                  <ul>
+                    {% for child in link %} 
+                      <li><a href="{{ child.url }}"> {{ child.title }}</a> </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
       {% endcase %}
     {% endfor %}
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
