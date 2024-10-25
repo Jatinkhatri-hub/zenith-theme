@@ -87,7 +87,10 @@
             </ul>
           </div>
         {% when 'logo_social' %}
-          {% render 'social-icons', additional_classes: 'footer__social' %}
+          <div class="log">
+            {% render 'social-icons', additional_classes: 'footer__social' %}
+
+          </div>
       {% endcase %}
     {% endfor %}
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
@@ -168,7 +171,7 @@
       "name": "Social",
       "type": "logo_social",
       "settings": [
-        
+
       ]
     }
   ]
