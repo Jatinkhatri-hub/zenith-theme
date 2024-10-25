@@ -312,6 +312,10 @@
     display: flex;
   }
 
+  #openNav {
+    display: none;
+  }
+
   .site-nav__link svg {
     width: 24px;
     height: 28px;
