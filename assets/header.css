@@ -212,7 +212,9 @@
   padding: 25px;
 }
 
-.nav
+.nav-drawer__parent-menu li {
+  list
+}
 
 
 
