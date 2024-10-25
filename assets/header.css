@@ -263,6 +263,10 @@
   gap: 15px;
 }
 
+.nav-drawer__social-icon svg.icon {
+  width: 3;
+}
+
 .nav-drawer__social-icon svg.icon path {
   fill: #4C3425;
 }
