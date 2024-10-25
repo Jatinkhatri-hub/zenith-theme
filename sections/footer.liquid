@@ -12,6 +12,7 @@
             <p>{{ block.settings.description }}</p>
             {%  render 'social-icons', additional_classes : 'footer__social-icon' %}
           </div>
+        {% when 'menu' %}
       {% endcase %}
     {% endfor %}
   </div>
