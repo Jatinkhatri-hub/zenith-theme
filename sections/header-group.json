@@ -32,6 +32,19 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "shop_info_wD7anC": {
+          "type": "shop_info",
+          "settings": {
+            "title": "SHOP NOW",
+            "description_1": "1,000+ Pumped Customers",
+            "description_2": "Free Shipping on orders $75+"
+          }
+        }
+      },
+      "block_order": [
+        "shop_info_wD7anC"
+      ],
       "settings": {
         "desktop_logo": "shopify://shop_images/image_2.png"
       }
