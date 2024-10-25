@@ -306,7 +306,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  al
+  align-self: flex;
 }
 
 .nav-drawer__copyright p {
