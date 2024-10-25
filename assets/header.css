@@ -217,7 +217,11 @@
   text-transform: uppercase;
 }
 
-.nav-drawer__child
+.nav-drawer__child-menu {
+  display: flex;
+  flex-direction: column;
+  
+}
 
 .nav-drawer__parent-menu li {
   list-style-type: none;
