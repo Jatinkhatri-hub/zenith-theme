@@ -299,7 +299,7 @@
     height: 85px;
     position: relative;
     display: gird;
-    grid-template-columns: repeat(3, minmax(0, ));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .header__brand-logo {
@@ -313,6 +313,7 @@
 
   .nav-bar__icons {
     display: flex;
+    justify-self: flex-end;
   }
 
   #openNav {
