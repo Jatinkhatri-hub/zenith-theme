@@ -31,8 +31,11 @@
             {%  render 'social-icons', additional_classes : 'footer__social-icon' %}
           </div>
         {% when 'menu' %}
-          <div class="footer__menu-wrapper">
+          <ul class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
+              <li>
+                
+              </li>
               <a href="{{ link.url }}">{{ link.title }}
                 </a>
                 <div class="footer__menu-wrapper-child">
@@ -42,7 +45,7 @@
                 </div>
                 
             {% endfor %}
-          </div>
+          </ul>
       {% endcase %}
     {% endfor %}
   </div>
