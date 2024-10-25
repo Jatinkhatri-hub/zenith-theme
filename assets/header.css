@@ -258,11 +258,10 @@
 
 .nav-drawer__social-wrapper {
   display: flex;
-  margin-inline: 25px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 325px;;
+  width: 375px;
 }
 
 .nav-drawer__social-icon {
