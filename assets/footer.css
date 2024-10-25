@@ -111,7 +111,8 @@
     grid-template-columns: repeat(3, minmax(0, 175px));
     justify-content: flex-start;
     align-self: flex-start;
-    margin-right: ;
+    margin-right: 80px;
+    margin-bottom: ;
   }
 
   .footer__menu-wrapper a {
