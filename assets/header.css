@@ -258,7 +258,9 @@
 
 .nav-drawer__social-icon {
   display: flex;
-  j
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 
