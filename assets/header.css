@@ -131,7 +131,7 @@
   overflow: hidden;
 }
 
-.nav__product-img-wrapper {
+.nav__product-img__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,7 @@
 
 .nav__product-review__wrapper span {
   font: 12px 'Futura PT Light';
-  
+
 }
 
 
