@@ -27,8 +27,7 @@
     </div>
     {% for block in section.blocks %} 
       {% if block.type == 'menu' and navdrawer_menu_started == false %}
-        <div class="swiper mySwiper mySwiper-{{ section.id }}">
-          <div class="banner__review-image-carousel swiper-wrapper">
+        <div class="nav">
           {% assign image_carousel_started = true %}
       {% endif %}
 
