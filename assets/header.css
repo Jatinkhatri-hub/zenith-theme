@@ -351,6 +351,7 @@
   .nav-bar__item:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+    color: white;
   }
 
 
