@@ -201,7 +201,7 @@
   
 }
 
-.nav-drawer__product-btn {
+.nav-drawer__product-btn:hover {
   background-color: white;
   border: 1px solid #231811;
 }
