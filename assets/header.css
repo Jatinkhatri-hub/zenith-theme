@@ -172,7 +172,8 @@
 .nav__product-review__wrapper {
   display: flex;
   justify-content: flex-start;
-  
+  align-items: center;
+  gap: px;
 }
 
 
