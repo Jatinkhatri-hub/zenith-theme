@@ -299,6 +299,11 @@
 .nav-drawer__social-icon svg.icon path {
   fill: #4C3425;
 }
+
+.nav-drawer__copyright {
+  background-color: #110700;
+  columns: white;
+}
 :not(#\20):not(#\20):not(#\20):not(#\20).r-wd7h38 {
   display: none !important;
 }
