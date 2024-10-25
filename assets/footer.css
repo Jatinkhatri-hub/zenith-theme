@@ -78,7 +78,7 @@
   position: relative;
 }
 
-.footer__menu-wrapper:hover {
+.footer__menu-wrapper a:hover {
   color: white;
 }
 
