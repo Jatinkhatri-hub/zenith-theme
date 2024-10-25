@@ -38,6 +38,10 @@
   height: 26px;
 }
 
+.nav-bar__menu {
+  display: none;
+}
+
 .site-nav__link--icon {
   display: flex;
   align-items: center;
