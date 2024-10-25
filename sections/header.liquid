@@ -26,7 +26,7 @@
       </span>
     </div>
     {% for block in section.blocks %} 
-      {% if block.type == 'menu' and navdrawer_menu_started == false %}
+      {% comment %} {% if block.type == 'menu' and navdrawer_menu_started == false %}
         <div class="nav-menu__wrapper">
           {%  assign navdrawer_menu_started = true %} 
       {% endif %}
@@ -36,7 +36,7 @@
         </div>
         
         {% assign navdrawer_menu_closed = true %}
-      {% endif %}
+      {% endif %} {% endcomment %}
       {% case block.type %}
         {% when 'shop_info' %}
           <div class="shop__info-wrapper">
@@ -86,9 +86,9 @@
           </ul>
       {% endcase %}
     {% endfor %}
-    {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
+    {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
       </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
   </div>
 </header>
 
