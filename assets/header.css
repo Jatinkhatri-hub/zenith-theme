@@ -139,7 +139,10 @@
   object-fit: cover;
 }
 
-.nav__product-info
+.nav__product-info-wrapper {
+  display: flex;
+  flex
+}
 
 
 
