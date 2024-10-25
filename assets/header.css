@@ -212,7 +212,9 @@
   padding: 25px;
 }
 
-.nav-drawer
+.parent_link {
+  font: ;
+}
 
 .nav-drawer__parent-menu li {
   list-style-type: none;
