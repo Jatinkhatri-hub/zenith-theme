@@ -59,6 +59,10 @@
   height: 100vh;
 }
 
+.open {
+  
+}
+
 .nav-drawer__header {
   display: flex;
   justify-content: space-between;
