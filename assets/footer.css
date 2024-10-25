@@ -95,7 +95,7 @@
   .brand__info-wrapper {
     align-items: baseline;
     width: 300px;
-
+    gap: 14px;
   }
 
   .brand__info-wrapper p {
