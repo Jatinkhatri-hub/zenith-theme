@@ -45,7 +45,7 @@
 
 .nav-drawer__container {
   position: fixed;
-  left: -99999;
+  left: -99999px ;
   right: 0;
   bottom: 0;
   top: 0;
@@ -61,7 +61,7 @@
 }
 
 .open {
-  left: -999999;
+  left: 0;
 }
 
 .nav-drawer__header {
