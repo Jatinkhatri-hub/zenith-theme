@@ -67,10 +67,17 @@
             "logo_img": "shopify://shop_images/image_2_1.png",
             "description": "Lorem ipsum dolor sit amet cons ectetur. Nulla quam purus auctor!"
           }
+        },
+        "menu_4C6exh": {
+          "type": "menu",
+          "settings": {
+            "menu": "zenith-header"
+          }
         }
       },
       "block_order": [
-        "brand_info_YnDtwL"
+        "brand_info_YnDtwL",
+        "menu_4C6exh"
       ],
       "settings": {
         "text": ""
