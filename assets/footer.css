@@ -84,8 +84,10 @@
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
-  
+  height: 0;
 }
+
+
 
 
 .footer__copyright {
