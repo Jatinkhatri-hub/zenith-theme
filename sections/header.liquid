@@ -77,9 +77,9 @@
               {% for link in block.settings.nav_menu.links %} 
                 <li class="parent_link">
                   <a href="{{ link.url }}">{{ link.title }}</a>
-                  <ul >
+                  <ul class="nav-drawer__child-menu">
                     {% for child in link.links %} 
-                      <li><a href="{{ child.url }}"> {{ child.title }}</a> </li>
+                      <li class="child_link"><a href="{{ child.url }}"> {{ child.title }}</a> </li>
                     {% endfor %}
                   </ul>
                 </li>
