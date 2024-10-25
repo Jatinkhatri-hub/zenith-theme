@@ -178,7 +178,8 @@
 
 .nav__product-review__wrapper span {
   font: 13px 'Futura PT Light';
-  di
+  display: flex;
+  align-items: center;
 }
 
 
