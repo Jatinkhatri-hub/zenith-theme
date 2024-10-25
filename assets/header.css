@@ -299,6 +299,10 @@
     height: 85px;
   }
 
+  .header__brand-logo [
+    width: 190px;
+  ]
+
   .nav-drawer__container {
     display: none;
   }
