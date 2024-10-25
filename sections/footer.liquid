@@ -14,7 +14,7 @@
           </div>
         {% when 'menu' %}
           <div class="footer__menu-wrapper">
-            {}
+            {% for link in block.settings.menu.links %} {% endfor %}
           </div>
       {% endcase %}
     {% endfor %}
