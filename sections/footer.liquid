@@ -34,7 +34,7 @@
           <ul class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <li>
-              <a id="menu-dropdown" {% if link == blank %} href="{{ link.url }}" {% endif %}>{{ link.title }}</a>
+              <a {% if link == blank %} href="{{ link.url }}" {% endif %}>{{ link.title }} </a>
                   <div class="footer__menu-wrapper-child">
                     {% for child in link.links %} 
                       <a href="{{ child.url }}">{{ child.title }}</a>
