@@ -136,7 +136,9 @@
 .nav__product-img {
   width: 77px;
   height: 77px;
-  
+  object-fit: cover;
 }
+
+
 
 
