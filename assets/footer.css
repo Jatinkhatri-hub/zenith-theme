@@ -175,4 +175,8 @@
   .payment-icons {
     padding-bottom: 25px;
   }
+
+  #parent-link {
+    justify-self: flex-start;
+  }
 }
