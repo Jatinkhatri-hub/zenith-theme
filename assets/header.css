@@ -47,6 +47,10 @@
   align-items: center;
 }
 
+.icon-user {
+  display: none;
+}
+
 .nav-drawer__container {
   position: fixed;
   left: -999px ;
