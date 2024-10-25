@@ -303,8 +303,10 @@
 .nav-drawer__copyright {
   background-color: #110700;
   color: white;
+}
 
-
+.nav-drawer__copyright p {
+  font: ;
 }
 :not(#\20):not(#\20):not(#\20):not(#\20).r-wd7h38 {
   display: none !important;
