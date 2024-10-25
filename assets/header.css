@@ -263,7 +263,9 @@
   gap: 15px;
 }
 
-.nav-drawer__social-icon svg.icon
+.nav-drawer__social-icon svg.icon path {
+  fill: #4C3425;
+}
 
 
 
