@@ -77,7 +77,9 @@
               <li>
                 <a href="{{ link.url }}">{{ link.title }}</a>
                 <ul>
-                  <
+                  {% for child in link %} 
+                    <ul></ul>
+                  {% endfor %}
                 </ul>
               </li>
             {% endfor %}
