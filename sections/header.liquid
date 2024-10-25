@@ -24,7 +24,7 @@
       </span>
     </div>
     {% for block in section.blocks %} 
-      {}
+      {% case block.type %} {% endcase %}
     {% endfor %}
   </div>
 </header>
