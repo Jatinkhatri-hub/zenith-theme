@@ -120,6 +120,7 @@
   align-items: baseline;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 
 .nav__product-card {
