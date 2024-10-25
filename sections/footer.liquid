@@ -1,8 +1,38 @@
+{{ 'footer.css' |  asset_url |  stylesheet_tag }}
+
+<footer class="section-footer">
+  <div class="section-footer__wrapper">
+    {% for block in section.blocks %} 
+      {% case block.type %} 
+        {% when 'brand_info' %}
+          <div class="brand__info-wrapper">
+            <div class="footer__brand-logo">
+              <img src="{{ block.settings.logo_img |  image_url: width: block.settings.logo_img.width }}"  class="footer__brand-img">
+            </div>
+            <p>{{ block.settings.description }}</p>
+            {%  render 'social-icons', additional_classes : 'footer__social-icon' %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</footer>
+
 {%  schema  %} 
 {
   "name": "Footer",
   "settings": [
-    
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand_info",
+      "name": "Brand Info"
+      
+    }
   ]
 }
 {% endschema %}
