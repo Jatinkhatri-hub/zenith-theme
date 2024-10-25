@@ -16,7 +16,7 @@
       {%  render 'icon-cart-bag' %}
     </a>
   </div>
-  <div class="nav-drawer__container">
+  < class="nav-drawer__container">
     {% assign navdrawer_menu_started = false %}
     {% assign navdrawer_menu_closed = false %}
     <div class="nav-drawer__header">
@@ -31,10 +31,10 @@
           {%  assign navdrawer_menu_started = true %} 
       {% endif %}
 
-      {% if block.type != 'menu' and navdrawer_menu_started == true and navdrawer_menu_started == false %}
+      {% if block.type != 'menu' and navdrawer_menu_started == true and navdrawer_menu_closed == false %}
 
         </div>
-        </div>
+        
         {% assign image_carousel_closed = true %}
       {% endif %}
       {% case block.type %}
