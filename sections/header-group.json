@@ -69,7 +69,8 @@
         "logo_social_VYRcXR"
       ],
       "settings": {
-        "desktop_logo": "shopify://shop_images/image_2.png"
+        "desktop_logo": "shopify://shop_images/image_2.png",
+        "desktop_menu": "zenith-header"
       }
     }
   },
