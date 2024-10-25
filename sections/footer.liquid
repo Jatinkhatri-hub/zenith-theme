@@ -34,15 +34,14 @@
           <ul class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <li>
-                
+                <a href="{{ link.url }}">{{ link.title }}</a>
+                  <div class="footer__menu-wrapper-child">
+                    {% for child in link.links %} 
+                      <a href="{{ child.url }}">{{ child.title }}</a>
+                    {% endfor %}
+                  </div>
+
               </li>
-              <a href="{{ link.url }}">{{ link.title }}
-                </a>
-                <div class="footer__menu-wrapper-child">
-                  {% for child in link.links %} 
-                    <a href="{{ child.url }}">{{ child.title }}</a>
-                  {% endfor %}
-                </div>
                 
             {% endfor %}
           </ul>
