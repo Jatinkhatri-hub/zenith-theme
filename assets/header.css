@@ -186,7 +186,9 @@
   font: 18px 'Master';
   background-image: linear-gradient(#FFA600, #FF8400);
   color: #231811;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
