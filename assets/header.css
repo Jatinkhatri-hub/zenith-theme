@@ -219,6 +219,7 @@
 .parent_link {
   font: 18px 'Futura PT Light';
   text-transform: uppercase;
+  color: #909090;
 }
 
 .nav-drawer__child-menu {
