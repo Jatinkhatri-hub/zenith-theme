@@ -89,7 +89,7 @@
   .section-footer__wrapper {
     flex-direction: row;
     justify-content: flex-start;
-    padding: 45px;
+    padding: 115px 45px;
   }
 
   .brand__info-wrapper {
