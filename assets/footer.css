@@ -31,5 +31,6 @@
 .footer__brand-img {
   width: 140px;
   height: 60px;
-  
+  object-fit: cover;
 }
+
