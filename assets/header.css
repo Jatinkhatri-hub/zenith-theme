@@ -303,7 +303,7 @@
   }
 
   .nav-bar__header-logo {
-    
+    justify-self: center;
   }
 
   .header__brand-logo {
