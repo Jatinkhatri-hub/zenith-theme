@@ -335,6 +335,10 @@
     position: relative;
   }
 
+  .nav-bar__item:hover {
+    color: #000;
+  }
+
   .nav-bar__item::after {
     content: '';
     position: absolute;
