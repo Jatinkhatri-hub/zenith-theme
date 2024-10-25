@@ -213,7 +213,9 @@
 }
 
 .parent_link {
-  font: 18px 'Futura ';
+  font: 18px 'Futura PT Light';
+  text-transform: uppercase;
+  
 }
 
 .nav-drawer__parent-menu li {
