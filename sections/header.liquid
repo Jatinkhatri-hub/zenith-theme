@@ -40,7 +40,7 @@
                 <img src="{{ block.settings.product.image |  image_url: width: image.width  }}" class="nav__product-img">
               </div>
               <div class="nav__product-info-wrapper">
-                <span>{{ block.settings.product_badge }}</span>
+                <span class="product__badge">{{ block.settings.product_badge }}</span>
                 <h2>{{ block.settings.product.title }}</h2>
                 <div class="nav__product-review__wrapper">
                   <div class="review-star__wrapper">
@@ -112,7 +112,7 @@
         {
           "type": "text",
           "id": "review_text",
-          "label": "Review Text"
+          "label": "Review"
         }
       ]
     }
