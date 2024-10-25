@@ -215,8 +215,9 @@
 .parent_link {
   font: 18px 'Futura PT Light';
   text-transform: uppercase;
-  
 }
+
+.nav-drawer__child
 
 .nav-drawer__parent-menu li {
   list-style-type: none;
