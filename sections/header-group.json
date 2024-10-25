@@ -70,7 +70,8 @@
       ],
       "settings": {
         "desktop_logo": "shopify://shop_images/image_2.png",
-        "desktop_menu": "zenith-footer",
+        "desktop_menu": "zenith-left",
+        "desktop_menu_2": "zenith-right",
         "copyright": "© 2024 Zenith Supplements"
       }
     }
