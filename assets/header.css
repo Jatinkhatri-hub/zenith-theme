@@ -129,7 +129,8 @@
   align-items: center;
   width: 77px;
   height: 77px;
-  border
+  border-radius: 2px;
+  font
 }
 
 
