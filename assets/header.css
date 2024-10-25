@@ -96,6 +96,8 @@
   align-items: center;
 }
 
-.shop__info-wr
+.shop__info-wrapper div p {
+  font: 12px 'Futura PT '
+}
 
 
