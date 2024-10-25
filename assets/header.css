@@ -300,14 +300,13 @@
   fill: #4C3425;
 }
 
-/* .nav-drawer__copyright {
+.nav-drawer__copyright {
   background-color: #110700;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: flex-end;  
-} */
+}
 
 .nav-drawer__copyright p {
   font: 400 14px 'Rubik';
