@@ -34,7 +34,7 @@
           <ul class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <li>
-              {% comment %} <a {% if link.links == blank %} href="{{ link.url }}" {% endif %}  {% link.links != blank %} id="menu-dropdown"  {% endif %} >{{ link.title }} {% if link.links != blank %} {%  render 'icon-arrow-down' %} {% endif %} </a> {% endcomment %}
+            <a id="parent-link" {% if link == blank %} href="{{ link.url }}" {% endif %}>{{ link.title }}</a>
                   <div class="footer__menu-wrapper-child">
                     {% for child in link.links %} 
                       <a href="{{ child.url }}">{{ child.title }}</a>
@@ -75,34 +75,18 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    
+  document.querySelectorAll('.parent-link').forEach(parentLink => {
+  parentLink.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent navigation on click
 
-    const accordionButtons = document.querySelectorAll('#menu-dropdown');
-
-    accordionButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        const panel = button.nextElementSibling;
-        const icon = button.querySelector('svg');
-
-        button.classList.toggle('active');
-
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + 'px';
-        }
-        
-        // Rotate the icon
-        if (button.classList.contains('active')) {
-          icon.style.transform = 'rotate(180deg)';
-        } else {
-          icon.style.transform = 'rotate(0deg)';
-        }
-      });
-    });
-
+    // Toggle the 'visible' class to show/hide with animation
+    const childWrapper = parentLink.nextElementSibling;
+    childWrapper.classList.toggle('visible');
+  });
   });
 
-
+  });
 </script>
 
 {%  schema  %} 
