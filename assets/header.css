@@ -338,7 +338,7 @@ body.no-scroll {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    padding-inline: 120px ;
+    padding-inline: 85px ;
   }
 
   .nav-bar__header-logo {
