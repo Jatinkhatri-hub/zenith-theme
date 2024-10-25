@@ -260,7 +260,8 @@
   display: flex;
   margin-inline: 25px;
   align-items: center;
-  flex
+  justify-content: center;
+  
 }
 
 .nav-drawer__social-icon {
