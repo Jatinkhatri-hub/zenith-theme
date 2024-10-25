@@ -105,4 +105,9 @@
   .footer__social-icon {
     justify-content: flex-start;
   }
+
+  .footer__menu-wrapper {
+    display: grid;
+    grid-template-columns: repeat();
+  }
 }
