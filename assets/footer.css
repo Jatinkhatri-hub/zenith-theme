@@ -117,5 +117,7 @@
 
   .footer__menu-wrapper a {
     text-align: start;
+    margin-right: 80px;
+    margin-bottom: 20px;
   }
 }
