@@ -86,6 +86,8 @@
               {% endfor %}
             </ul>
           </div>
+          {when 'logo_social'
+          render 'footer-logo', block: block
       {% endcase %}
     {% endfor %}
     {% comment %} {% if navdrawer_menu_started and navdrawer_menu_closed == false %}
