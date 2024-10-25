@@ -115,7 +115,8 @@
 
 .nav__product-card {
   display: flex;
-  width: ;
+  width: 330px;
+  height: 100px;
 }
 
 
