@@ -95,7 +95,7 @@
   transition: transform 0.25s ease-out;
 }
 
-.nav-bar__item:hover::after {
+#parent-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
