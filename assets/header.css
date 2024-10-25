@@ -51,5 +51,9 @@
 }
 
 .nav-drawer__close-btn {
-  transform: rotateY'angle');
+  transform: rotateY('180deg');
+}
+
+.nav-drawer__close-btn:hover {
+  transition: transform 0.3s ease-in-out ;
 }
