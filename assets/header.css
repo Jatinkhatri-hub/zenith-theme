@@ -338,7 +338,7 @@ body.no-scroll {
     position: relative;
     display: grid;
     /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
-    padding-inline: 85px ;
+    padding-inline: 40px ;
     grid-template-columns: 1fr 200px 1fr;
   }
 
