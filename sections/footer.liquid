@@ -39,14 +39,16 @@
       {% endcase %}
     {% endfor %}
   </div>
-  <div class="footer__section">
-        {%- render 'multi-selectors',
-          locale_selector: true,
-          currency_selector: true,
-          show_currency_flags: true
-          location: 'footer'
-        -%}
-  </div>
+  {%- if show_selectors -%}
+    <div class="footer__section">
+      {%- render 'multi-selectors',
+        locale_selector: locale_selector,
+        currency_selector: currency_selector,
+        show_currency_flags: section.settings.show_currency_flags
+        location: 'footer'
+      -%}
+    </div>
+  {%- endif -%}
   <div>
     {%- unless shop.enabled_payment_types == empty -%}
       <ul class="inline-list payment-icons footer__section">
