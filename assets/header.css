@@ -235,6 +235,7 @@
 .child_link {
   margin: 0;
   text-transform: capitalize;
+  color: #110700;
 }
 
 .nav-drawer__parent-menu li {
