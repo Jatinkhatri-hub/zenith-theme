@@ -108,6 +108,7 @@
 
   .footer__menu-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, minmax);
+    grid-template-columns: repeat(3, minmax(0, 175px));
+    justify-content: flex-start;
   }
 }
