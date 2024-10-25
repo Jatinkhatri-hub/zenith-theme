@@ -1,5 +1,5 @@
 {{ 'footer.css' |  asset_url |  stylesheet_tag }}
-<script src="{{ 'section-header.js' |  asset_url }}" defer></script>
+<script src="{{ 'section-footer.js' |  asset_url }}" defer></script>
 
 {%- liquid
   assign show_selectors = false
@@ -35,7 +35,7 @@
           <ul class="footer__menu-wrapper">
             {% for link in block.settings.menu.links %} 
               <li>
-                <a id="parent-link" href="{{ link.url }}">{{ link.title }}</a>
+            <a id="parent-link" {% if link.links == blank %} href="{{ link.url }}" {% endif %}>{{ link.title }}</a>
                   <div class="footer__menu-wrapper-child">
                     {% for child in link.links %} 
                       <a href="{{ child.url }}">{{ child.title }}</a>
