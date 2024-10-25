@@ -302,6 +302,10 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .nav-bar__header-logo {
+    
+  }
+
   .header__brand-logo {
     height: 50px;
     width: 190px;
