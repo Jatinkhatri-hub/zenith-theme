@@ -357,7 +357,7 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  .nav-bar__logo {
+  .header__brand-logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
