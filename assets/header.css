@@ -305,7 +305,8 @@
   color: white;
   display: flex;
   align-items: center;
-  ju
+  justify-content: center;
+  al
 }
 
 .nav-drawer__copyright p {
