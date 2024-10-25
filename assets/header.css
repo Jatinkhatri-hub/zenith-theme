@@ -114,7 +114,7 @@
 }
 
 .nav-drawer__product-card-wrapper {
-  padding-start: 25px;
+  padding-inline-start: 25px;
 }
 
 .nav__product-card {
