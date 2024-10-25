@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', () => {
     navContainer.classList.remove('close');
   })
 
-  .
+  closeNavBtn.addEventListener('click')
 })
