@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.parent-link').
+  document.querySelectorAll('.parent-link').forEach(button)
 })
