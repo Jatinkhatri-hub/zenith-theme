@@ -336,7 +336,7 @@
   }
 
   .nav-bar__item:hover {
-    color: #000;
+    color: white;
   }
 
   .nav-bar__item::after {
@@ -355,7 +355,6 @@
   .nav-bar__item:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-    color: white;
   }
 
 
