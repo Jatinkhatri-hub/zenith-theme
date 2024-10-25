@@ -57,11 +57,11 @@
   z-index: 1000;
   width: 100vw;
   height: 100vh;
-  transition: left 0.5s ;
+  transition: left 0.5s ease-in-out;
 }
 
 .open {
-
+  left: -999999;
 }
 
 .nav-drawer__header {
