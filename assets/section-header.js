@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
   const openNavBtn = document.querySelector('#openNav');
-  const 
+  const closeNavBtn = document.querySelector('#');
 })
