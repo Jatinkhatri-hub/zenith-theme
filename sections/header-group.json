@@ -40,10 +40,19 @@
             "description_1": "1,000+ Pumped Customers",
             "description_2": "Free Shipping on orders $75+"
           }
+        },
+        "product_card_tdNbgY": {
+          "type": "product_card",
+          "settings": {
+            "product": "beast",
+            "product_badge": "BEST SELLER",
+            "review_text": "1,000+ reviews"
+          }
         }
       },
       "block_order": [
-        "shop_info_wD7anC"
+        "shop_info_wD7anC",
+        "product_card_tdNbgY"
       ],
       "settings": {
         "desktop_logo": "shopify://shop_images/image_2.png"
