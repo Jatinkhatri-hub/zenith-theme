@@ -77,5 +77,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+}
+
+.footer__copyright p {
+  font: 400 19px 'Rubik';
 }
