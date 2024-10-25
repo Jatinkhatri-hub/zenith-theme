@@ -160,7 +160,8 @@
 }
 
 .nav__product-title {
-  font: 20px 
+  font: 20px 'Master';
+  color: #231811;
 }
 
 
