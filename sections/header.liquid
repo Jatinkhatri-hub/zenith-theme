@@ -25,7 +25,7 @@
     </div>
     {% for block in section.blocks %} 
       {% case block.type %} 
-        {}
+        {% when 'product' %}
       {% endcase %}
     {% endfor %}
   </div>
