@@ -227,7 +227,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: baseline;
-  font: 18px 'Futura PT Light';
+  font: 18px 'Futura PT ';
   color: #110700;
   text-transform: capitalize;
   margin: 0;
@@ -239,7 +239,9 @@
   color: #110700;
 }
 
-child
+.child_link a {
+  color: #110700;
+}
 
 .nav-drawer__parent-menu li {
   list-style-type: none;
