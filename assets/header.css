@@ -378,7 +378,7 @@ body.no-scroll {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    justify-self: flex-start;
+    justify-self: center;
   }
 
   .nav-bar__item {
