@@ -234,6 +234,7 @@
 
 .child_link {
   margin: 0;
+  text-transform: capitalize;
 }
 
 .nav-drawer__parent-menu li {
