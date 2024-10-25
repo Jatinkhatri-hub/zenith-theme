@@ -295,8 +295,8 @@
 
 @media screen and (min-width: 786px) {
 
-  .nav-bar__container {
-    height: ;
+  .nav-bar__container,  {
+    height: 85px;
   }
 
   .nav-drawer__container {
