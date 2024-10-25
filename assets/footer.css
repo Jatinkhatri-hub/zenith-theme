@@ -40,7 +40,12 @@
   text-align: center;
 }
 
-.footer
+.footer__social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 
 .footer__social-icon svg.icon {
   width: 36px;
