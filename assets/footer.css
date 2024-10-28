@@ -158,7 +158,8 @@
 }
 
 .footer__country-selector ul {
-  
+  margin: 0;
+  background-color: white;
 }
 
 
