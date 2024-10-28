@@ -157,6 +157,10 @@
   justify-content: center;
 }
 
+.footer__country-selector ul {
+  
+}
+
 
 @media screen and (min-width: 786px) {
   .section-footer__wrapper {
