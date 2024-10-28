@@ -162,7 +162,9 @@
   background-color: white;
 }
 
-.footer__co
+.footer__country-selector ul li {
+  list-style-type: none;
+}
 
 
 @media screen and (min-width: 786px) {
