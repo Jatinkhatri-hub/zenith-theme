@@ -174,7 +174,9 @@
 
 .footer__country-selector ul li {
   list-style-type: none;
-  
+  padding: 5px 15px 4px;
+  text-align: left;
+  white-space: nowrap;
 }
 
 
