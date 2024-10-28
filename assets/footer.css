@@ -157,6 +157,10 @@
   justify-content: center;
 }
 
+.footer__country-selector button {
+  width: 225px;
+}
+
 .footer__country-selector ul {
   margin: 0;
   background-color: white;
