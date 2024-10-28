@@ -160,12 +160,10 @@
 .footer__country-selector ul {
   margin: 0;
   background-color: white;
-  background-color: var(--colorBody);
   border-radius: 0;
   bottom: 100%;
   box-shadow: 0 0 20px #00000017;
   color: var(--colorTextBody);
-  display: none;
   margin: 0;
   max-height: 60vh;
   min-height: 92px;
