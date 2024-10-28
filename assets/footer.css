@@ -234,4 +234,7 @@
   #parent-link {
     justify-self: flex-start;
   }
+  .footer__country-selector button {
+    width: 225px;
+  }
 }
