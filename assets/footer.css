@@ -152,6 +152,11 @@
   font: 400 19px 'Rubik';
 }
 
+.footer__country-selector {
+  display: flex;
+  justify-content: center;
+}
+
 
 @media screen and (min-width: 786px) {
   .section-footer__wrapper {
