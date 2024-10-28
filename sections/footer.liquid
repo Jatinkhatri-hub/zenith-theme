@@ -50,6 +50,7 @@
       {% endcase %}
     {% endfor %}
   </div>
+  {% comment %}
   {%- if show_selectors -%}
     <div class="footer__section">
       {%- render 'multi-selectors',
@@ -60,18 +61,8 @@
       -%}
     </div>
   {%- endif -%}
+  {% endcomment %}
   <div>
-    {% comment %}
-    {%- unless shop.enabled_payment_types == empty -%}
-      <ul class="inline-list payment-icons footer__section">
-        {%- for type in shop.enabled_payment_types -%}
-          <li class="icon--payment">
-            {{ type | payment_type_svg_tag }}
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endunless -%}
-    {% endcomment %}
     {% if localization.available_countries.size > 1 %}
   <localization-form>
     {% form 'localization' %}
@@ -99,6 +90,17 @@
     {% endform %}
   </localization-form>
 {% endif %}
+  </div>
+  <div>
+    {%- unless shop.enabled_payment_types == empty -%}
+      <ul class="inline-list payment-icons footer__section">
+        {%- for type in shop.enabled_payment_types -%}
+          <li class="icon--payment">
+            {{ type | payment_type_svg_tag }}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endunless -%}
   </div>
   <div class="footer__copyright">
     <p>{{ section.settings.copyright }}</p>
